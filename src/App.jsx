@@ -11,13 +11,12 @@ function App() {
         mockupImg={assets.homeHero}
         banner="banner"
       />
-      {/* <SectionWrapper
+      <SectionWrapper
         title="Smart User Interface Marketplace"
-        description="e"
-        showBtn
-        mockupImg={assets.homeHero}
-        banner="banner"
-      /> */}
+        description="Experience a buttery UI of ProNef NFT Marketplace. Smooth constant colors of a fluent UI design."
+        mockupImg={assets.homeCards}
+        reverse
+      />
     </>
   );
 }
