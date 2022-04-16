@@ -18,6 +18,20 @@ function App() {
         reverse
       />
       <Features />
+      <SectionWrapper
+        title="Deployment"
+        description="ProNef is build using Expo which runs natively on all users's devices. You can easily get your app into people's hands."
+        mockupImg={assets.feature}
+        reverse
+      />
+      <SectionWrapper
+        title="Creative way to showcase the store"
+        description="The app contains two screens. The first screen lists all NFTs while the second screen shows the details of a specific NFT."
+        mockupImg={assets.mockup}
+        reverse
+        banner="banner02"
+      />
+      <Download />
     </>
   );
 }
