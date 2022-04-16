@@ -17,6 +17,7 @@ function App() {
         mockupImg={assets.homeCards}
         reverse
       />
+      <Features />
     </>
   );
 }
