@@ -1,5 +1,6 @@
 import { Download, Features, SectionWrapper } from "./components";
 import assets from "./assets";
+import styles from "./styles/Global";
 
 function App() {
   return (
@@ -32,6 +33,15 @@ function App() {
         banner="banner02"
       />
       <Download />
+
+      <div className="px-4 py-8 justify-center items-center bg-primary flex-col text-center banner04">
+        <p className={`${styles.pText} ${styles.whiteText}`}>
+          Made with 💖 by{" "}
+          <a href="https://github.com/Gaurav-Krishna-Gaali" className="bold">
+            Gaurav Krishna
+          </a>
+        </p>
+      </div>
     </>
   );
 }
